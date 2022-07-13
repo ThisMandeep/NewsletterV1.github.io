@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flipbook</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="turn.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <style>
+            body {
+                overflow: hidden;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div id="flipbook">
+            <div>
+        
+             <img src="stem1.jpeg">
+            </div>
+            <div>
+                <img src="stem4.jpeg">
+            </div>
+            <div>
+                <img src="stem3.jpeg">
+            </div>
+            <div>
+                <img src="stem2.jpeg">
+            </div>
+            <div>
+                <img src="stem5.jpeg">
+            </div>
+            <div>
+                <img src="stem6.jpeg">
+            </div>
+            <div>
+                <img url=("https://rygiel.ca/wp-content/uploads/2014/04/gradientbg.png")>
+            </div>
+            <div>
+                <img src="stem7.jpeg">
+            </div>
+      
+        </div>
+        <script type="text/javascript">
+        $('#flipbook').turn({
+            width:970,
+            height:700,
+            page:1,
+            autocenter:true,
+            duration:2000,
+        })
+        </script>
+
+    </body>
+</html>

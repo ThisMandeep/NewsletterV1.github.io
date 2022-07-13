@@ -1,0 +1,24 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+    background-image: url("https://rygiel.ca/wp-content/uploads/2014/04/gradientbg.png");
+    }
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.book{
+	display: flex;
+}
+
+
+
+
